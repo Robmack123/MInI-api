@@ -1,60 +1,227 @@
 {
   "species": [
-    { "id": 1, "name": "Dragonborn" },
-    { "id": 2, "name": "Dwarf" },
-    { "id": 3, "name": "Elf" },
-    { "id": 4, "name": "Gnome" },
-    { "id": 5, "name": "Half-Elf" },
-    { "id": 6, "name": "Halfling" },
-    { "id": 7, "name": "Half-Orc" },
-    { "id": 8, "name": "Human" },
-    { "id": 9, "name": "Tiefling" },
-    { "id": 10, "name": "Goblin" },
-    { "id": 11, "name": "Orc" },
-    { "id": 12, "name": "Kobold" },
-    { "id": 13, "name": "Ogre" },
-    { "id": 14, "name": "Troll" },
-    { "id": 15, "name": "Lizardfolk" },
-    { "id": 16, "name": "Gnoll" },
-    { "id": 17, "name": "Bugbear" },
-    { "id": 18, "name": "Hobgoblin" },
-    { "id": 19, "name": "Yuan-ti" },
-    { "id": 20, "name": "Minotaur" },
-    { "id": 21, "name": "Sahuagin" },
-    { "id": 22, "name": "Beholder" },
-    { "id": 23, "name": "Dragon" },
-    { "id": 24, "name": "Illithid" },
-    { "id": 25, "name": "Owlbear" },
-    { "id": 26, "name": "Undead" }
-  ],
-  "classes": [
-    { "id": 1, "name": "Barbarian" },
-    { "id": 2, "name": "Bard" },
-    { "id": 3, "name": "Cleric" },
-    { "id": 4, "name": "Druid" },
-    { "id": 5, "name": "Fighter" },
-    { "id": 6, "name": "Monk" },
-    { "id": 7, "name": "Paladin" },
-    { "id": 8, "name": "Ranger" },
-    { "id": 9, "name": "Rogue" },
-    { "id": 10, "name": "Sorcerer" },
-    { "id": 11, "name": "Warlock" },
-    { "id": 12, "name": "Wizard" },
-    { "id": 13, "name": "No Class" }
-  ],
-  "sizes": [
-    { "id": 1, "name": "Tiny" },
-    { "id": 2, "name": "Small" },
-    { "id": 3, "name": "Medium" },
-    { "id": 4, "name": "Large" },
-    { "id": 5, "name": "Huge" },
-    { "id": 6, "name": "Gargantuan" }
-  ],
-  "user": [
     {
       "id": 1,
-      "name": "John Doe",
-      "email": "johndoe@example.com"
+      "name": "Dragonborn"
+    },
+    {
+      "id": 2,
+      "name": "Dwarf"
+    },
+    {
+      "id": 3,
+      "name": "Elf"
+    },
+    {
+      "id": 4,
+      "name": "Gnome"
+    },
+    {
+      "id": 5,
+      "name": "Half-Elf"
+    },
+    {
+      "id": 6,
+      "name": "Halfling"
+    },
+    {
+      "id": 7,
+      "name": "Half-Orc"
+    },
+    {
+      "id": 8,
+      "name": "Human"
+    },
+    {
+      "id": 9,
+      "name": "Tiefling"
+    },
+    {
+      "id": 10,
+      "name": "Goblin"
+    },
+    {
+      "id": 11,
+      "name": "Orc"
+    },
+    {
+      "id": 12,
+      "name": "Kobold"
+    },
+    {
+      "id": 13,
+      "name": "Ogre"
+    },
+    {
+      "id": 14,
+      "name": "Troll"
+    },
+    {
+      "id": 15,
+      "name": "Lizardfolk"
+    },
+    {
+      "id": 16,
+      "name": "Gnoll"
+    },
+    {
+      "id": 17,
+      "name": "Bugbear"
+    },
+    {
+      "id": 18,
+      "name": "Hobgoblin"
+    },
+    {
+      "id": 19,
+      "name": "Yuan-ti"
+    },
+    {
+      "id": 20,
+      "name": "Minotaur"
+    },
+    {
+      "id": 21,
+      "name": "Sahuagin"
+    },
+    {
+      "id": 22,
+      "name": "Beholder"
+    },
+    {
+      "id": 23,
+      "name": "Dragon"
+    },
+    {
+      "id": 24,
+      "name": "Illithid"
+    },
+    {
+      "id": 25,
+      "name": "Owlbear"
+    },
+    {
+      "id": 26,
+      "name": "Undead"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "Barbarian"
+    },
+    {
+      "id": 2,
+      "name": "Bard"
+    },
+    {
+      "id": 3,
+      "name": "Cleric"
+    },
+    {
+      "id": 4,
+      "name": "Druid"
+    },
+    {
+      "id": 5,
+      "name": "Fighter"
+    },
+    {
+      "id": 6,
+      "name": "Monk"
+    },
+    {
+      "id": 7,
+      "name": "Paladin"
+    },
+    {
+      "id": 8,
+      "name": "Ranger"
+    },
+    {
+      "id": 9,
+      "name": "Rogue"
+    },
+    {
+      "id": 10,
+      "name": "Sorcerer"
+    },
+    {
+      "id": 11,
+      "name": "Warlock"
+    },
+    {
+      "id": 12,
+      "name": "Wizard"
+    },
+    {
+      "id": 13,
+      "name": "Monster"
+    },
+    {
+      "id": 14,
+      "name": "No Class"
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "name": "Tiny"
+    },
+    {
+      "id": 2,
+      "name": "Small"
+    },
+    {
+      "id": 3,
+      "name": "Medium"
+    },
+    {
+      "id": 4,
+      "name": "Large"
+    },
+    {
+      "id": 5,
+      "name": "Huge"
+    },
+    {
+      "id": 6,
+      "name": "Gargantuan"
+    }
+  ],
+  "users": [
+    {
+      "email": "rob@gmail.com",
+      "fullName": "Robert",
+      "id": 1
+    },
+    {
+      "email": "glip@hotmail.com",
+      "fullName": "glippy",
+      "id": 2
+    }
+  ],
+  "miniatures": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Gartobius",
+      "speciesId": 3,
+      "classId": 8,
+      "painted": true,
+      "sizeId": 3,
+      "dateAcquired": "2023-08-12T03:06:27.975Z",
+      "img_url": "https://www.darkswordminiatures.com/wp-content/uploads/2020/06/7451_f1_p.jpg"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Klauth",
+      "speciesId": 23,
+      "classId": 13,
+      "sizeId": 6,
+      "dateAcquired": "2023-08-12T03:06:27.975Z",
+      "img_url": "https://i.redd.it/sb5qhq4t6w871.jpg"
     }
   ]
 }

@@ -156,10 +156,6 @@
     },
     {
       "id": 13,
-      "name": "Monster"
-    },
-    {
-      "id": 14,
       "name": "No Class"
     }
   ],
@@ -204,7 +200,7 @@
   "miniatures": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 2,
       "name": "Gartobius",
       "speciesId": 3,
       "classId": 8,
@@ -219,9 +215,65 @@
       "name": "Klauth",
       "speciesId": 23,
       "classId": 13,
+      "painted": true,
       "sizeId": 6,
       "dateAcquired": "2023-08-12T03:06:27.975Z",
       "img_url": "https://i.redd.it/sb5qhq4t6w871.jpg"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "Helmit Darkchin",
+      "speciesId": 2,
+      "classId": 5,
+      "painted": true,
+      "sizeId": 3,
+      "dateAcquired": "2023-08-12T03:06:27.975Z",
+      "img_url": "https://i.etsystatic.com/15083031/r/il/8cdfc5/2131037195/il_fullxfull.2131037195_i1j3.jpg"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "name": "Ruith",
+      "speciesId": 3,
+      "classId": 12,
+      "painted": true,
+      "sizeId": 3,
+      "dateAcquired": "2023-08-12T03:06:27.975Z",
+      "img_url": "https://images.dakkadakka.com/gallery/2019/4/15/1006798-03491%3A%20Anirion%2C%20Carrero%20Arts%2C%20Carreroarts%2C%20Dark%20Heaven%20Legends%2C%20Dungeons%20And%20Dragons.JPG"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "name": "Jammick",
+      "speciesId": 4,
+      "classId": 6,
+      "painted": true,
+      "sizeId": 2,
+      "dateAcquired": "2023-08-12T03:06:27.975Z",
+      "img_url": "https://dl2.myminifactory.com/object-assets/601450e607090/images/720X720-gnome-64629d6279f0e.jpg"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "name": "Boblin",
+      "speciesId": 10,
+      "classId": 1,
+      "painted": true,
+      "sizeId": 2,
+      "dateAcquired": "2023-08-12T03:06:27.975Z",
+      "img_url": "https://i.etsystatic.com/16653283/r/il/e4417d/5499466666/il_1080xN.5499466666_euph.jpg"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "name": "Umuth",
+      "speciesId": 9,
+      "classId": 11,
+      "painted": true,
+      "sizeId": 3,
+      "dateAcquired": "2023-08-12T03:06:27.975Z",
+      "img_url": "https://images.squarespace-cdn.com/content/v1/633ef47ba5e52e0904c9fc95/1687976354706-18YBM49U3VW3ZMQROMFK/https%3A%2F%2Fi.etsystatic.com%2F31388880%2Fr%2Fil%2Fe53561%2F5078882907%2Fil_fullxfull.5078882907_7l7a.jpg?format=1500w"
     }
   ]
 }
